@@ -1,0 +1,146 @@
+#header {
+    background-color: #125784;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    height: 80%;
+    width: 20%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.li {
+    text-decoration: none;
+}
+
+.toptext-1 {
+    background: rgba(0, 0, 0, 0.7) url('../img/img1.jpg');
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+    background-blend-mode: darken;
+    color: white;
+}
+
+.toptext-1 > h1 {
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    padding: 250px;
+}
+
+.img3 {
+    display: flex;
+}
+
+.img3 > img {
+    width: 33.33%;
+}
+
+.toptext-2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f57f17;
+    height: 40vh;
+    padding-left: 2%;
+    align-items: center;
+}
+
+.toptext-2 > img {
+    width: 35vw;
+    height: 19vw;
+}
+
+.form {
+    display: flex;
+    background-color: #5e35b1;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.wid {
+    width: 50vw;
+    padding: 1%;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo2 {
+    display: flex;
+    height: 40%;
+    width: 10%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .logo,
+    .nav-list {
+        width: 100%;
+        padding: 2%;
+    }
+
+    .toptext-1 > h1 {
+        padding: 150px;
+        font-size: 32px;
+    }
+
+    .img3 > img {
+        width: 100%;
+    }
+
+    .toptext-2 {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5%;
+        height: auto;
+    }
+
+    .toptext-2 > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .wid {
+        width: 80vw;
+    }
+
+    .logo2 {
+        padding-right: 2%;
+    }
+}
